@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+.header {
+  font-family: Helvetica;
+  font-size: 30px;
+  color: rgba(8, 8, 109, 0.613);
+  text-align: center;
+  background: linear-gradient(rgb(25, 183, 222), rgb(159, 22, 183));
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgb(159, 22, 183), rgb(25, 183, 222));
+}
+
+.text-two {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(eth.svg);
+  background-repeat: no-repeat;
+  background-color: rgb(25, 183, 222);
+  background-size: 1000px;
+  background-position: center;
+  padding: 350px;
+  align-items: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.button1:link,
+.button1:visited {
+  background-color: #0b9a7d;
+  font-weight: Helvetica;
+  padding: 10px; 
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid #621459;
+  border-radius: 25px;
+  width: 200px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: stretch;
+}
+
+p {
+  font-size: 17px;
+  padding: 20px;
+  margin: 40px;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(rgb(25, 183, 222), rgb(159, 22, 183));
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.footer-two {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: rgba(8, 8, 109, 0.613);
+}
+
+.footer-three {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.header-one {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.header-two {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: rgba(8, 8, 109, 0.613);
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.header-three {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
